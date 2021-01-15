@@ -1,0 +1,32 @@
+/*Sepia Reset*/
+
+:root {
+    --accent:#2e897b;
+    --highlight:#92a4a2;
+    --bg:#f3f0d9;
+    --secondary:#d2b48a;
+    --primary:#5a464b;
+    --white:#ffffff;
+}
+
+
+html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+body{margin:0; padding:0; font-size:1rem; font-family:"Dosis", san-serif; color:var(--primary); background-color:var(--bg);}
+ul, li {margin:0;}
+
+a {color:var(--accent); text-decoration:none;}
+a:hover {color:var(--highlight);}
+
+/*End Reset  */
+
+header {border-bottom:1px solid var(--secondary);}
+body {text-align:center;}
+h1 {font-weight:500;}
+h3 {font-weight:400;}
+
+.wrapper {margin:50px auto; width:80%;}
+
+.course-block {background:var(--white); padding:5px 20px; width:220px; margin:0 20px; display:inline-block; vertical-align:top; min-height:200px; text-align:left;}
+.course-block .sec-list {border-top:1px solid var(--secondary); margin-top:20px; padding-top:10px; font-size:smaller;}
+.course-block li {margin-bottom:5px; list-style-type:square;}
+.course-block .note {display:block; font-size:0.8rem; opacity:0.8;}
